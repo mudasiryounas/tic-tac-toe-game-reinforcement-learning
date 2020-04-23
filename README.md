@@ -6,7 +6,7 @@
 Tic Tac Toe, Reinforcement Learning, RL, machine Learning, ML, Artificial Intelligence, 
 AI, AI Game, Epsilon Greedy, Python, numpy
 
-<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/img/cover.png" width="450"></p>
+<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/cover.png" width="450"></p>
 
 
 In this beginner tutorial we will be making our intelligent tic tac toe agent, which will learn in the real-time as it plays against human.
@@ -16,7 +16,7 @@ Before anything there are some terminologies we need to understand, I will be gi
 ### What is Reinforcement Learning (RL)?
 RL is the branch of Machine Learning(ML) that interacts with the real or virtual environment and makes decisions based on the current state in order to maximize the reward in the future. So it requires a real-time dynamic response, unlike supervised or unsupervised learning which works more on static data.
 
-<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/img/rl_intro.png" width="450"></p>
+<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/rl_intro.png" width="450"></p>
 
 
 Let’s look at some of the reinforcement terminologies.
@@ -53,7 +53,7 @@ Do not get confused between reward and value, they are not the same, the reward 
 Finally, we can look at the following picture to understand the whole idea of one episode
 
 
-<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/img/rl_intro2.png" width="450"></p>
+<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/rl_intro2.png" width="450"></p>
 
 ### Epsilon Greedy
 Epsilon greedy is a popular algorithm for solving a multi-armed bandit problem, We will be using this technique to decide which action to take next.
@@ -98,12 +98,12 @@ Now let’s run our game and check results.
 
 The following image shows the result of playing when the agent has no experience.  As I make my moves the same each time, the agent does now have these in his state's history and blocks me on the 4th game.
 
-<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/img/1.png" width="450"></p>
-<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/img/2.png" width="450"></p>
-<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/img/3.png" width="450"></p>
+<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/1.png" width="450"></p>
+<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/2.png" width="450"></p>
+<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/3.png" width="450"></p>
 
 Playing with agent which has learned by playing with himself 10,000 times.
-p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/img/4.png" width="450"></p>
+p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/4.png" width="450"></p>
 
 
 
