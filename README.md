@@ -94,11 +94,12 @@ Now let’s run our game and check results.
 The following image shows the result of playing when the agent has no experience.  As I make my moves the same each time, the agent does now have these in his state's history and blocks me on the 4th game.
 
 <p><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/1.png" width="450"></p>
-<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/2.png" width="450"></p>
-<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/3.png" width="450"></p>
+<p><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/2.png" width="450"></p>
+<p><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/3.png" width="450"></p>
 
 Playing with agent which has learned by playing with himself 10,000 times.
-p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/4.png" width="450"></p>
+
+<p><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/4.png" width="450"></p>
 
 
 
