@@ -1,7 +1,7 @@
 # Tic Tac Toe Game Using Reinforcement Learning
 
 
-<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/cover.png" width="450"></p>
+<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/cover.png" width="550"></p>
 
 
 In this beginner tutorial we will be making our intelligent tic tac toe agent, which will learn in the real-time as it plays against human.
@@ -11,7 +11,7 @@ Before anything there are some terminologies we need to understand, I will be gi
 ### What is Reinforcement Learning (RL)?
 RL is the branch of Machine Learning(ML) that interacts with the real or virtual environment and makes decisions based on the current state in order to maximize the reward in the future. So it requires a real-time dynamic response, unlike supervised or unsupervised learning which works more on static data.
 
-<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/rl_intro.png" width="450"></p>
+<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/rl_into.png" width="450"></p>
 
 
 Let’s look at some of the reinforcement terminologies.
@@ -93,7 +93,7 @@ Now let’s run our game and check results.
 
 The following image shows the result of playing when the agent has no experience.  As I make my moves the same each time, the agent does now have these in his state's history and blocks me on the 4th game.
 
-<p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/1.png" width="450"></p>
+<p><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/1.png" width="450"></p>
 <p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/2.png" width="450"></p>
 <p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/3.png" width="450"></p>
 
