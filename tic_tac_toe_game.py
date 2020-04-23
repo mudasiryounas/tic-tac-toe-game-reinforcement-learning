@@ -32,7 +32,6 @@ class Agent:
         self.state_history = []
 
     def choose_random_action(self, env):
-        print("Agent is taking random action...")
         empty_moves = env.get_empty_moves()
         # select randomly from possible moves
         # this will generate any random integer based on given possible moves e.g lts say there are 3 possible moves so it will give us 0, 1 or 2
@@ -41,7 +40,6 @@ class Agent:
         return next_random_move
 
     def choose_best_action_from_states(self, env):
-        print("Agent is taking best action...")
         next_best_move, best_state = env.get_next_best_move(self)
         return next_best_move, best_state
 
@@ -283,7 +281,7 @@ def get_state_hash_and_winner(env, i=0, j=0):
     return results
 
 
-def play_game(agent, human, env):
+def play_game(agent, human, env, print_board=True):
     current_player = None  # p1 will start the game always
     # loop until the game is over
     continue_game = True
@@ -302,7 +300,8 @@ def play_game(agent, human, env):
             agent.update_state_history(state)  # p1 will be agent
             # update value function for agent
             agent.update(env)
-            env.draw_board()  # draw updated board again
+            if print_board:
+                env.draw_board()  # draw updated board again
 
         if env.game_over():
             continue_game = False
@@ -324,14 +323,18 @@ def main(should_learn_before_playing):
     agent.initialize_V(env, state_winner_triples)
 
     if should_learn_before_playing:
+        print("Agent is playing with himself to learn...")
         # to learn
         agent_to_learn = Agent()
         agent_to_learn.set_symbol(env.o)
         agent_to_learn.initialize_V(env, state_winner_triples)
 
         for i in range(10000):
-            play_game(agent, agent_to_learn, Environment())
-        print("Agent has learned by playing with itself 10,000 times...")
+            if i > 0 and i % 1000 == 0:
+                print(f"Agent has played {i} times")
+            play_game(agent, agent_to_learn, Environment(), print_board=False)
+        print("")
+        print("Agent has learned by playing with himself 10,000 times...")
 
     # play agent vs human
     human = Human()
