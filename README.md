@@ -1,11 +1,6 @@
 # Tic Tac Toe Game Using Reinforcement Learning
 
 
-
-### Keywords
-Tic Tac Toe, Reinforcement Learning, RL, machine Learning, ML, Artificial Intelligence, 
-AI, AI Game, Epsilon Greedy, Python, numpy
-
 <p align="center"><img src="https://github.com/mudasiryounas/tic-tac-toe-game-reinforcement-learning/blob/master/img/cover.png" width="450"></p>
 
 
